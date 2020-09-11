@@ -16302,6 +16302,8 @@ in
     inherit (darwin.apple_sdk.frameworks) SystemConfiguration;
   };
 
+  freshrss = callPackage ../servers/web-apps/freshrss { };
+
   fusionInventory = callPackage ../servers/monitoring/fusion-inventory { };
 
   gatling = callPackage ../servers/http/gatling { };
