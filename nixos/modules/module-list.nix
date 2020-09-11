@@ -848,6 +848,7 @@
   ./services/web-apps/dokuwiki.nix
   ./services/web-apps/engelsystem.nix
   ./services/web-apps/frab.nix
+  ./services/web-apps/freshrss.nix
   ./services/web-apps/gerrit.nix
   ./services/web-apps/gotify-server.nix
   ./services/web-apps/grocy.nix
