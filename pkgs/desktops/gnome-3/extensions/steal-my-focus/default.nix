@@ -5,10 +5,10 @@ stdenv.mkDerivation rec {
   version = "2017-02-22";
 
   src = fetchFromGitHub {
-    owner = "sstent";
+    owner = "Ninlives";
     repo = "gnome-shell-extension-stealmyfocus";
-    rev = "3a498c392710666903294e1079f90b3fa3ab3fe0";
-    sha256 = "0x7knd9dzzcpdw1xl4m5ivqg57q9bkhizxw8jzirxrwsp52rfxya";
+    rev = "06da2000d37d1eb9e9c421987b7baaf7fb58d3c2";
+    sha256 = "0x7knd4dzzcpdw1xl4m5ivqg57q9bkhizxw8jzirxrwsp52rfxya";
   };
 
   uuid = "steal-my-focus@kagesenshi.org";
