@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "Ninlives";
     repo = "gnome-shell-extension-stealmyfocus";
     rev = "06da2000d37d1eb9e9c421987b7baaf7fb58d3c2";
-    sha256 = "0x7knd4dzzcpdw1xl4m5ivqg57q9bkhizxw8jzirxrwsp52rfxya";
+    sha256 = "0qb1cmvlld4l6j5z8lvg56mqghai13y0n35fvbk6pkmma20a58n9";
   };
 
   uuid = "steal-my-focus@kagesenshi.org";
