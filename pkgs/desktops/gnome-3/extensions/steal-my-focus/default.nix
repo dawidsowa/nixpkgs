@@ -13,10 +13,12 @@ stdenv.mkDerivation rec {
 
   uuid = "steal-my-focus@kagesenshi.org";
 
+  dontBuild = true;
+
   installPhase = ''
     runHook preInstall
     mkdir -p $out/share/gnome-shell/extensions/${uuid}
-    cp ${src}/* $out/share/gnome-shell/extensions/${uuid}
+    cp ${src}/{extension.js,metadata.json} $out/share/gnome-shell/extensions/${uuid}
     runHook postInstall
   '';
 
