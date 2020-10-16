@@ -25735,6 +25735,7 @@ in
     remove-dropdown-arrows = callPackage ../desktops/gnome-3/extensions/remove-dropdown-arrows { };
     sound-output-device-chooser = callPackage ../desktops/gnome-3/extensions/sound-output-device-chooser { };
     system-monitor = callPackage ../desktops/gnome-3/extensions/system-monitor { };
+    task-widget = callPackage ../desktops/gnome-3/extensions/task-widget { };
     taskwhisperer = callPackage ../desktops/gnome-3/extensions/taskwhisperer { };
     tilingnome = callPackage ../desktops/gnome-3/extensions/tilingnome { };
     timepp = callPackage ../desktops/gnome-3/extensions/timepp { };
