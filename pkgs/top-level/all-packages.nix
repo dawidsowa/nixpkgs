@@ -25716,6 +25716,7 @@ in
     appindicator = callPackage ../desktops/gnome-3/extensions/appindicator { };
     arc-menu = callPackage ../desktops/gnome-3/extensions/arc-menu { };
     battery-status = callPackage ../desktops/gnome-3/extensions/battery-status { };
+    bluetooth-quick-connect = callPackage ../desktops/gnome-3/extensions/bluetooth-quick-connect { };
     caffeine = callPackage ../desktops/gnome-3/extensions/caffeine { };
     clipboard-indicator = callPackage ../desktops/gnome-3/extensions/clipboard-indicator { };
     dash-to-dock = callPackage ../desktops/gnome-3/extensions/dash-to-dock { };
