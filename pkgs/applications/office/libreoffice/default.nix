@@ -455,7 +455,7 @@ in stdenv.mkDerivation (finalAttrs: {
     "--with-boost-libdir=${getLib boost}/lib"
     "--with-beanshell-jar=${bsh}"
     "--with-vendor=NixOS"
-    "--disable-report-builder"
+    # "--disable-report-builder" # TODO: Add switch
     "--disable-online-update"
     "--enable-python=system"
     "--enable-dbus"
